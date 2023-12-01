@@ -3,7 +3,6 @@ kind: Ingress
 metadata:
   name: frontend
 spec:
-  ingressClassName: nginx
   tls:
     - hosts:
         - "#{frontend-url}#"
